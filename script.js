@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // WhatsApp share function
   function shareToWhatsApp() {
-    const message = encodeURIComponent("I won $50,000 through Solibot! Click to claim your prize: https://github.com/unitedstateofamerica/solibot-site.git");
+    const message = encodeURIComponent("I won $50,000 through Solibot! Click to claim your prize: https://unitedstateofamerica.github.io/solibot-site/");
     const whatsappLink = `https://wa.me/?text=${message}`;
     window.open(whatsappLink, "_blank");
   }
